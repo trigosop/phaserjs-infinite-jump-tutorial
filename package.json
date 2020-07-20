@@ -1,0 +1,27 @@
+{
+  "name": "infinite-jumper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "Piero Trigoso <trigosop@gmail.com> (https://webelopers.com.ar/)",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.24.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-clean-easy": "^1.0.2",
+    "parcel-plugin-static-files-copy": "^2.4.3"
+  },
+  "parcelCleanPaths": [
+    "dist"
+  ]
+}
